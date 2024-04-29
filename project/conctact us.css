@@ -1,0 +1,369 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    .container-1{
+        display: flex;
+        height: 48px;
+        background: #221d19;
+        width: 100%;
+        font: 16px Roboto,sans-serif;
+        color: #212529;
+        align-items: center;
+        justify-content: center;
+    }
+    .left{
+        display: flex;
+        list-style: none;
+        padding: 5px 25px;
+        width: 50%;
+        height: 24px;
+        font: 16px Roboto,sans-serif;
+        
+       
+    }
+    .left small a{
+        text-decoration: none;
+        color: white;
+        top: 10px;
+        margin: 5x;
+        letter-spacing: 1px;
+        margin-top: 12px;
+        font: 14px Roboto,sans-serif;
+        cursor: pointer;
+    }
+    .right-1{
+        color: #f5fdeb;
+        width: 50%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .right-1 p {
+        right: 20px;
+        color: white;
+       
+    }
+    div.follow{
+        padding: 0 25px;
+        letter-spacing: 15px;
+        color: #EAA636;
+    }
+    .follow i {
+        cursor: pointer;
+    }
+    header {
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 100px;
+        transition: 0.9s;
+    }
+    header .logo {
+        color: #EAA636;
+        font-size: 50px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+    header .menu {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .menu a {
+        font: 24px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #fff;
+        margin: 0 40px;
+        padding: 0 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+        transition-property: color, background;
+        background: rgba(0,0,0,0.0.1);
+    }
+    header .menu a:hover{
+        color: #EAA636;
+        background-color: #fff;
+    }
+    header.sticky {
+        background: #221d19;
+        color: #212529;
+        top: 0;
+        left: 0;
+        padding: 10px 100px;
+    }
+    header .btn {
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+        display: none;
+    }
+    .section-main {
+        position: relative;
+        width: 100%;
+        min-height: 70vh;
+        background: url("carousel-1.jpg") no-repeat;
+        background-color: linear-gradient(rgba(0,0,0,0.9) rgba(0,0,0,0.9));
+        --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+        background-position: center;
+        color: linear-gradient(rgba(0,0,0,0.9) rgba(0,0,0,0.9));
+        background-size:cover ;
+        display: flex;
+        align-items: center;
+        opacity: 5;
+    }
+    .section-main h1 {
+        font: 90px "Playfair Display",serif;
+        font-weight: 900;
+        color: #F5FDEB !important;
+        text-align: center;
+        margin-left: 35%;
+
+    }
+    .section-main p {
+        position: absolute;
+        top: 60%;
+        left: 42%;
+        font: 20px Roboto,sans-serif;
+        color:#F5FDEB !important;
+    }
+    .container {
+        max-width: auto;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #eaa363;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 550px;
+        height: 50px;
+        width: 120px;
+        font-size: 24px;
+        
+    }
+    h2{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #eaa363;
+        font-size: 24px;
+    }
+    h1{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    input[type="submit"]:hover {
+        background-color: #f51b08;
+    }
+    .error {
+        color: red;
+    }
+    .map{
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    /* footer start */
+  .footer{
+    background: #1E1916;
+     padding: 70px 0;
+     width: 100%;
+}
+
+.row{
+    max-width: 1170px;
+    margin: auto;
+
+}
+.ul-1 {
+    list-style: none;
+    padding: 0;
+}
+.row-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.addres-1 {
+    width: 25%;
+    padding: 0 10px;
+}
+.addres-1 h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.addres-1 h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.ul-1 li:not(:last-child) {
+   margin-bottom: 10px;
+}
+.ul-1 li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.ul-1 li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.9s ease;
+}
+.social-links  :hover {
+    background-color: #ffffff;
+    color:#24262b;
+}
+
+   
+
+    /* Responsive Styles  */
+ 
+    @media (max-width: 1060px) {
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container-1{
+            display: none;
+        }
+        header {
+            z-index: 999;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            transition: 0.9s;
+        }
+        header .logo {
+            color: #EAA636;
+            font-size: 50px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 2px;
+        }
+        header .btn{
+            display: block;
+        }
+        header .menu {
+            position: fixed;
+            background: #EAA636;
+            flex-direction: column;
+            min-width: 300px;
+            height: 100vh;
+            top: 0;
+            right: -100%;
+            padding: 80px 50px;
+            transition: 0.5s;
+            transition-property: right;
+    
+        }
+        header .menu.active {
+            right: 0;
+        }
+        header .menu .close-btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 25px;
+        }
+        header .menu a {
+            display: block;
+            font-size: 20px;
+            margin: 20px;
+            padding: 0 15px;
+        }
+        header.sticky {
+            padding: 0 50px;
+        }
+        .section-main h1 {
+            padding: 0;
+            font: 60px "Playfair Display",serif;
+            font-weight: 700;
+            color: #F5FDEB !important;
+            margin: 0 25%;
+            line-height: 1.2;
+            text-decoration: double;
+            left: 0;
+            top: 300px;
+        }
+        .section-main p {
+            margin: 0;
+            left: 30%;
+        }
+        .map{
+            margin: 0;
+            height: 100%;
+            width: auto;
+        }
+        input[type="submit"] {
+            margin: 0;
+        }
+    }
